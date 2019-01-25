@@ -1,5 +1,0 @@
-package com.challenge;
-
-public class MovingAverageImpl implements MovingAverage<E> {
-
-}
