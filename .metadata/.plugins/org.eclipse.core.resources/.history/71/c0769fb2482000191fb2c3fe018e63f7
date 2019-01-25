@@ -1,0 +1,18 @@
+package com.challenge;
+
+public class MovingAverageImpl<T extends Number> implements MovingAverage<T extends Number> {
+
+	@Override
+	public void add(T element) {
+		// TODO Auto-generated method stub
+		E + E;
+		
+	}
+
+	@Override
+	public T[] getElements() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

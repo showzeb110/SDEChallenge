@@ -1,0 +1,17 @@
+package com.challenge;
+
+public class MovingAverageImpl implements MovingAverage<E> {
+
+	@Override
+	public void add(E element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public E[] getElements() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

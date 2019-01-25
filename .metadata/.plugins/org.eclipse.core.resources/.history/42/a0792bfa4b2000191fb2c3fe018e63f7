@@ -1,0 +1,33 @@
+package com.challenge;
+
+import java.util.LinkedList;
+
+public class MovingAverageImpl implements MovingAverage {
+
+	private LinkedList<Integer> list = new LinkedList<>();
+	
+	@Override
+	public void add(Integer element) {
+		list.push(element);
+	}
+
+	@Override
+	public Integer[] getElements() {
+		return (Integer[]) list.toArray();
+	}
+
+	@Override
+	public Double getAverage(int N) {
+		double total = 0;
+		int count = 0;
+		for (Integer ele : list) {
+			if (count >= N) {
+				break;
+			}
+			total += ele;
+			count++;
+		}
+		return total/N;
+	}
+
+}
